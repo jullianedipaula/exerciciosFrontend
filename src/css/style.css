@@ -1,0 +1,48 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.perfil .imagem img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.perfil .nome p {
+    font-size: 24px;
+}
+
+.descricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.descricao div p {
+    font-size: 18px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0;
+}
